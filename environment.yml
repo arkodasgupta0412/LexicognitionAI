@@ -1,0 +1,34 @@
+name: kshitij
+channels:
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+
+  # Base scientific libraries
+  - numpy
+  - pandas
+  - scikit-learn
+
+  # Pip dependencies
+  - pip:
+      - pydantic<2.10.0
+
+      # App Framework
+      - streamlit
+      - python-dotenv
+      - nest-asyncio
+
+      # LangChain Ecosystem
+      - langchain
+      - langchain-community
+      - langchain-core
+      - langchain-google-genai
+      - langchain-huggingface
+      - langchain-text-splitters
+
+      # RAG & Parsing
+      - llama-parse
+      - pymupdf
+      - faiss-cpu
+      - sentence-transformers

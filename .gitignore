@@ -1,0 +1,66 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.whl
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Virtual environment
+myenv/
+*.env
+*.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Logs
+*.log
+*.txt
+*.out
+*.err
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDE specific
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Node.js specific
+node_modules/
+.npm/
+.next/
+*.log
+
+# Miscellaneous
+.env
+*.bak
+*.tmp
+*.old
+*.orig
+*.rej
+*.patch
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+*.orig
+*.rej
+*.patch
+*.swp
+*.swo
