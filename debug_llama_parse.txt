@@ -1,0 +1,50 @@
+Source: WhatsApp Image 2026-01-17 at 2.44.59 PM.pdf
+Total Chunks: 4
+==================================================
+
+--- [ CHUNK 1 ] ---
+Metadata: {'source': 'WhatsApp Image 2026-01-17 at 2.44.59 PM.pdf', 'page': '1'}
+Content:
+# VOC 2007 test
+
+|       | aero  | bike | bird | boat | bottle | bus  | car  | cat  | chair | cow  | table | dog  | horse | mbike | person | plant | sheep | sofa | train | tv   | mAP  |      |
+| ----- | ----- | ---- | ---- | ---- | ------ | ---- | ---- | ---- | ----- | ---- | ----- | ---- | ----- | ----- | ------ | ----- | ----- | ---- | ----- | ---- | ---- | ---- |
+| R-CNN | pool5 | 51.8 | 60.2 | 36.4 | 27.8   | 23.2 | 52.8 | 60.6 | 49.2  | 18.3 | 47.8  | 44.3 | 40.8  | 56.6  | 58.7   | 42.4  | 23.4  | 46.1 | 36.7  | 51.3 | 55.7 | 44.2 |
+------------------------------
+
+--- [ CHUNK 2 ] ---
+Metadata: {'source': 'WhatsApp Image 2026-01-17 at 2.44.59 PM.pdf', 'page': '1', 'type': 'visual_data'}
+Content:
+--- [ARCHITECTURAL DIAGRAM / FIGURE DESCRIPTION] ---
+1.  **CLASSIFY**: Graph (specifically, a table presenting quantitative results, which falls under the broader category of data representation/graph).
+2.  **FILTER**: RELEVANT
+3.  **DESCRIBE**:
+    This image displays a table summarizing the object detection performance of the "R-CNN pool_5" model on the "VOC 2007 test" dataset.
+------------------------------
+
+--- [ CHUNK 3 ] ---
+Metadata: {'source': 'WhatsApp Image 2026-01-17 at 2.44.59 PM.pdf', 'page': '1', 'type': 'visual_data'}
+Content:
+**Components:**
+    *   **Dataset (VOC 2007 test):** This indicates the benchmark dataset used for evaluating the model. PASCAL VOC 2007 is a widely recognized dataset for visual object recognition challenges, and "test" refers to the specific subset used for final evaluation.
+    *   **Model (R-CNN pool_5):** This specifies the particular object detection architecture being evaluated. R-CNN (Region-based Convolutional Neural Network) is a foundational model in object detection. "pool_5" likely refers to the feature extraction layer (e.g., the output of the 5th pooling layer of a CNN like AlexNet or VGG) from which region-of-interest features are extracted for classification and bounding box regression.
+    *   **Object Categories:** The columns from "aero" (aeroplane) to "tv" (TV monitor) represent the 20 distinct object classes defined in the PASCAL VOC dataset.
+    *   **Average Precision (AP):** The numerical values (e.g., 51.8 for 'aero', 60.2 for 'bike') under each object category represent the Average Precision for that specific class. AP is a performance metric in object detection, calculated as the area under the precision-recall curve for a given class. It is typically expressed as a percentage.
+    *   **Mean Average Precision (mAP):** The final column, "mAP" (44.2), represents the mean of the Average Precisions across all 20 object categories. It provides a single, aggregated metric for the overall performance of the object detector across all classes.
+------------------------------
+
+--- [ CHUNK 4 ] ---
+Metadata: {'source': 'WhatsApp Image 2026-01-17 at 2.44.59 PM.pdf', 'page': '1', 'type': 'visual_data'}
+Content:
+**Data Flow Logic:**
+    The table presents the quantitative results obtained after a specific R-CNN model (R-CNN pool_5) has been trained and then evaluated on the VOC 2007 test set.
+    1.  The R-CNN pool_5 model processes images from the VOC 2007 test set.
+    2.  For each image, the model generates a set of predicted bounding boxes and their corresponding class probabilities.
+    3.  These predictions are then compared against the ground truth annotations of the VOC 2007 test set.
+    4.  For each of the 20 PASCAL VOC object classes, the Average Precision (AP) is computed based on the precision and recall values at various confidence thresholds.
+    5.  Finally, the Mean Average Precision (mAP) is calculated by averaging these 20 individual AP values.
+    The table systematically organizes and displays these calculated AP values for each class and the overall mAP, allowing researchers to assess the model's performance across different object types and its general detection capability.
+----------------------------------------------------
+------------------------------
+
+    
