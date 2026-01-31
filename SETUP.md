@@ -16,17 +16,35 @@ Follow these steps to set up the Lexicognition-AI project on your local machine.
    cd lexicognition-AI
    ```
 2. Set up the Python environment:
+
    ```bash
    python -m venv myenv
    myenv\Scripts\activate  # On Windows
    pip install -r requirements.txt
    ```
-3. Install frontend dependencies:
+
+3. Set up API Keys:
+
+   Create a `.env` file in the root directory and add the following API keys:
+   - **Google API Key**:
+     - Obtain from: [Google API Key](https://aistudio.google.com/?timeRange=last-28-days)
+     - Enable the Gemini API
+     - Add to `.env`: `GOOGLE_API_KEY=your_key_here`
+   - **OpenRouter API Key**:
+     - Obtain from: [OpenRouter API Key](https://openrouter.ai/)
+     - Sign up and generate an API key from your account settings
+     - Add to `.env`: `OPENROUTER_API_KEY=your_key_here`
+   - **Llama Cloud API Key**:
+     - Obtain from: [LlamaCloud API Key](https://cloud.llamaindex.ai/)
+     - Sign up and create an API key from your dashboard
+     - Add to `.env`: `LLAMA_CLOUD_API_KEY=your_key_here`
+
+4. Install frontend dependencies:
    ```bash
    cd frontend
    npm install
    ```
-4. Start the development servers:
+5. Start the development servers:
    - Backend:
      ```bash
      uvicorn backend:app --reload --port 8000
