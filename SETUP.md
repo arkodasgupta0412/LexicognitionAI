@@ -17,9 +17,19 @@ Follow these steps to set up the Lexicognition-AI project on your local machine.
    ```
 2. Set up the Python environment:
 
+   **On Windows:**
+
    ```bash
    python -m venv myenv
-   myenv\Scripts\activate  # On Windows
+   myenv\Scripts\activate
+   pip install -r requirements.txt
+   ```
+
+   **On macOS/Linux:**
+
+   ```bash
+   python3 -m venv myenv
+   source myenv/bin/activate
    pip install -r requirements.txt
    ```
 
