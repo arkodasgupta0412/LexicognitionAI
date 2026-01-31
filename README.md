@@ -2,6 +2,10 @@
 
 Lexicognition-AI is a cutting-edge application designed to enhance the examination and grading process using AI-powered tools. It features a modern frontend built with Next.js and a robust backend to support AI-driven functionalities.
 
+## Contributons
+- **Backend + RAG Pipeline**: [Arko Dasgupta](https://github.com/arkodasgupta0412) and [Arjeesh Palai](https://github.com/shadowbeast0)
+- **Frontend**: [Sombrata Biswas](https://github.com/agentkira)
+
 ## Features
 
 ### Frontend
@@ -76,3 +80,4 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 - Inspired by advancements in AI and modern web development.
 - Built with Next.js, Python, and Three.js.
+
