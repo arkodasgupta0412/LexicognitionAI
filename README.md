@@ -2,7 +2,17 @@
 
 Lexicognition-AI is a cutting-edge application designed to enhance the examination and grading process using AI-powered tools. It features a modern frontend built with Next.js and a robust backend to support AI-driven functionalities.
 
-## Contributons
+## Demo
+
+Check out the demo video below to see Lexicognition-AI in action:
+
+<video width="100%" controls>
+  <source src="./demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+## Contributions
+
 - **Backend + RAG Pipeline**: [Arko Dasgupta](https://github.com/arkodasgupta0412) and [Arjeesh Palai](https://github.com/shadowbeast0)
 - **Frontend**: [Sombrata Biswas](https://github.com/agentkira)
 
@@ -20,6 +30,29 @@ Lexicognition-AI is a cutting-edge application designed to enhance the examinati
 - **AI-Powered Examination**: Supports ingestion, retrieval, and storage of examination data.
 - **RAG (Retrieve-Answer-Generate) Pipeline**: Implements a pipeline for efficient data handling.
 - **Utilities**: Includes mock data and helper functions.
+
+## Tech Stack
+
+### Frontend
+
+- **Framework**: Next.js 14
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **3D Graphics**: Three.js
+- **UI Components**: Custom React components with Lucide icons
+- **Build Tool**: Webpack (built-in with Next.js)
+
+### Backend
+
+- **Framework**: FastAPI
+- **Language**: Python 3.11+
+- **AI/ML Libraries**: LangChain, LlamaIndex, LlamaParse
+- **Vector Store**: Chroma
+- **Embeddings**: Google Generative AI (Gemini)
+- **LLM Integration**: OpenRouter API
+- **API Format**: REST with Server-Sent Events (SSE) for streaming
+- **Task Queue**: Async support with Python asyncio
 
 ## Project Structure
 
@@ -80,4 +113,3 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 - Inspired by advancements in AI and modern web development.
 - Built with Next.js, Python, and Three.js.
-
