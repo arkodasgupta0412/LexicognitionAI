@@ -6,7 +6,7 @@ Lexicognition-AI is a cutting-edge application designed to enhance the examinati
 
 Check out the demo video below to see Lexicognition-AI in action:
 
-[Demo Video](https://github.com/shadowbeast0/LexicognitionAI/blob/main/assets/demo.mp4)
+[Demo Video](https://github.com/shadowbeast0/LexicognitionAI/blob/main/assets/demo.gif)
 
 ## Contributions
 
@@ -110,4 +110,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 - Inspired by advancements in AI and modern web development.
 - Built with Next.js, Python, and Three.js.
+
 
