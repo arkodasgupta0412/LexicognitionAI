@@ -12,7 +12,7 @@ It combines:
 - A FastAPI backend with streaming ingestion progress (SSE)
 - A Retrieval-Augmented Generation (RAG) stack with Chroma
 - LLM-driven question generation, critique-based grading, and follow-up probing
-- A modern Next.js interface (plus Streamlit interface support)
+- A modern Next.js interface 
 
 ## Championship Announcement
 
@@ -325,6 +325,7 @@ Team acknowledgment: Arka Dutta is part of Team ByteMe's winning lineup for Lexi
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE).
+
 
 
 
