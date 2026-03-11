@@ -307,13 +307,6 @@ Notes:
 - Perfect-answer caching avoids recomputation for repeated grading on same question.
 - Upload processing uses SSE for incremental UX updates.
 
-## Contributions
-
-- **Backend + RAG Pipeline**: [Arko Dasgupta](https://github.com/arkodasgupta0412) and [Arjeesh Palai](https://github.com/shadowbeast0)
-- **Frontend**: [Sombrata Biswas](https://github.com/agentkira)
-
-Team acknowledgment: Arka Dutta is part of Team ByteMe's winning lineup for Lexicognition AI at Kshitij 2026.
-
 ## Contributing
 
 1. Fork the repository.
@@ -325,6 +318,7 @@ Team acknowledgment: Arka Dutta is part of Team ByteMe's winning lineup for Lexi
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE).
+
 
 
 
